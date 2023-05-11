@@ -1,7 +1,7 @@
 extends: occurrence
-message: "Try not to have too many long sentences (< 35 words)."
+message: "Try not to have too many long sentences (< 50 words)."
 scope: sentence
 level: warning
-max: 35
+max: 50
 token: \b(\w+)\b
 
